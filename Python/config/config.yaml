@@ -1,0 +1,73 @@
+# 音频参数
+audio:
+  sample_rate: 16000            # 采样率
+  duration: 3.0                 # 每个音频片段的持续时间(秒)
+  n_mfcc: 13                    # MFCC特征数量
+  hop_length: 512               # MFCC提取的步长
+  n_fft: 2048                   # FFT窗口大小
+  preemphasis: 0.97             # 预加重系数
+  window_type: "hann"           # 窗口类型
+  use_delta: true               # 是否使用增量特征
+
+# 模型参数
+model:
+  input_shape: [None, 39, 94, 1]  # [batch_size, n_mfcc, time_steps, channels]
+  embedding_dim: 128              # 声纹嵌入维度
+  learning_rate: 0.0004           # 学习率
+  batch_size: 8                   # 批次大小
+  epochs: 20                      # 训练轮数
+  model_type: "cnn"               # 模型类型
+  dropout_rate: 0.3               # Dropout比率
+  activation: "relu"              # 激活函数
+
+# 学习率调度 [新增]
+lr_scheduler:
+  enabled: true                   # 启用学习率调度
+  patience: 5                     # 降低学习率前等待的epochs
+  factor: 0.5                     # 学习率降低因子
+  min_lr: 0.00001                 # 最小学习率
+
+# 数据处理
+data:
+  train_test_split: 0.8           # [修改] 增加训练集比例
+  validation_split: 0.1           # 验证集比例
+  augmentation: true              # 是否启用数据增强
+  # [新增] 数据增强方法
+  augmentation_methods:
+    time_shift: 0.2               # 时间移位
+    pitch_shift: 2                # 音高偏移
+    noise_factor: 0.01            # 添加随机噪声
+
+# 训练参数 [新增]
+training:
+  early_stopping_patience: 10     # 早停耐心值
+  gradient_clip_value: 1.0        # 梯度裁剪阈值
+
+# TFLite转换
+tflite:
+  quantization: True                 # 是否量化模型
+  representative_dataset_size: 100   # 用于量化的代表性数据集大小
+
+# 添加验证参数
+verification:
+  similarity_threshold: 0.5      # [修改] 降低初始相似度阈值
+  max_retries: 3                 # 最大尝试次数
+
+# ESP32部署参数
+esp32:
+  input_buffer_size: 48000      # 3秒@16kHz
+  wake_word_timeout: 5          # 唤醒后等待时间(秒)
+  low_power_delay: 30           # 低功耗模式进入延迟(秒)
+
+# 数据文件结构
+paths:
+  raw_data: "data/raw"               # 原始音频根目录
+  processed_data: "data/processed"   # 处理后特征根目录
+  models_dir: "models"               # 模型保存目录
+  logs_dir: "logs"                   # 训练日志目录
+
+# 文件命名规则
+file_naming:
+  audio_format: "wav"                     # 音频文件格式
+  feature_format: "npy"                   # 特征文件格式
+  sample_pattern: "{phrase}_{sample_num}" # 样本文件命名模式
