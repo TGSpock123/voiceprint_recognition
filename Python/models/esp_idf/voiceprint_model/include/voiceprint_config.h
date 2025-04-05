@@ -1,0 +1,20 @@
+// ESP32声纹识别配置
+#pragma once
+
+#include <stdint.h>
+
+#define SAMPLE_RATE 16000
+#define AUDIO_LENGTH 48000
+#define MFCC_FEATURES 13
+#define USE_DELTA 1
+#define FFT_SIZE 2048
+#define HOP_LENGTH 512
+#define PREEMPHASIS_COEF 0.970000f
+#define INPUT_HEIGHT 39
+#define INPUT_WIDTH 94
+#define INPUT_CHANNELS 1
+#define EMBEDDING_DIM 128
+#define SIMILARITY_THRESHOLD 0.500000f
+#define INPUT_BUFFER_SIZE 48000
+#define WAKE_WORD_TIMEOUT_MS 5000
+#define LOW_POWER_DELAY_MS 30000
