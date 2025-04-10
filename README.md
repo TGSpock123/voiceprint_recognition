@@ -198,3 +198,7 @@ C:\GitHub\voiceprint_recognition\Python\scripts\train.py:124: UserWarning: Glyph
 训练历史图表已保存至: logs\training_history.png
 
 训练完成！
+
+esp32方案已弃用, 原因: 项目要求
+stm32f407方案已弃用, 原因: 内存容量不足
+stm32h743方案已启用.

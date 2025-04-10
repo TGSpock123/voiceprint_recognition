@@ -1,0 +1,3 @@
+../Core/Src/inmp441.c:7:6:HAL_I2S_RxCpltCallback	16	static
+../Core/Src/inmp441.c:29:6:HAL_I2S_RxHalfCpltCallback	16	static
+C:\STMicroelectronics\STM32Cube\STM32CubeIDE\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\arm-none-eabi\include\stdio.h:220:5:fputc	16	static
