@@ -51,7 +51,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Core/Inc/memorymap.h ../Core/Inc/rtc.h ../Core/Inc/gpio.h \
  ../X-CUBE-AI/App/app_x-cube-ai.h ../Middlewares/ST/AI/Inc/ai_platform.h \
  ../X-CUBE-AI/App/network.h ../X-CUBE-AI/App/network_config.h \
- ../X-CUBE-AI/App/network_data.h ../X-CUBE-AI/App/network_data_params.h
+ ../X-CUBE-AI/App/network_data.h ../X-CUBE-AI/App/network_data_params.h \
+ C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT.h \
+ C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT_Conf.h \
+ C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT_Conf.h
 ../Core/Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
@@ -113,3 +116,6 @@ C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/EasyLogger/in
 ../X-CUBE-AI/App/network_config.h:
 ../X-CUBE-AI/App/network_data.h:
 ../X-CUBE-AI/App/network_data_params.h:
+C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT.h:
+C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT_Conf.h:
+C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT_Conf.h:
