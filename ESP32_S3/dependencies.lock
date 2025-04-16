@@ -1,0 +1,17 @@
+dependencies:
+  espressif/esp-nn:
+    dependencies: []
+    source:
+      path: C:\GitHub\voiceprint_recognition\ESP32_S3\components\espressif__esp-nn
+      type: local
+    version: 1.1.1
+  idf:
+    source:
+      type: idf
+    version: 5.4.0
+direct_dependencies:
+- espressif/esp-nn
+- idf
+manifest_hash: 46e60943520b929e900da0564451b285e5facada9969553fba2fde623bf2c190
+target: esp32s3
+version: 2.0.0

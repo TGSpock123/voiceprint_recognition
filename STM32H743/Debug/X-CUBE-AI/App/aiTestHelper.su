@@ -1,5 +1,6 @@
-../X-CUBE-AI/App/aiTestHelper.c:149:13:_aiPrintDataInfo	16	static
-../X-CUBE-AI/App/aiTestHelper.c:41:6:aiPlatformVersion	48	static
-../X-CUBE-AI/App/aiTestHelper.c:60:6:aiLogErr	4	static
-../X-CUBE-AI/App/aiTestHelper.c:83:6:aiPrintBufferInfo	48	static
-../X-CUBE-AI/App/aiTestHelper.c:160:6:aiPrintNetworkInfo	24	static
+../X-CUBE-AI/App/aiTestHelper.c:41:6:aiPlatformVersion	40	static
+../X-CUBE-AI/App/aiTestHelper.c:60:6:aiLogErr	16	static
+../X-CUBE-AI/App/aiTestHelper.c:70:20:aiPrintDataType	16	static
+../X-CUBE-AI/App/aiTestHelper.c:83:6:aiPrintBufferInfo	56	static
+../X-CUBE-AI/App/aiTestHelper.c:149:13:_aiPrintDataInfo	32	static
+../X-CUBE-AI/App/aiTestHelper.c:160:6:aiPrintNetworkInfo	40	static

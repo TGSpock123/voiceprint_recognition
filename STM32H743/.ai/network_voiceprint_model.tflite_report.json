@@ -1,7 +1,7 @@
 {
     "_allocate_inputs": 4,
     "_allocate_outputs": 4,
-    "cli_parameters": "generate --target stm32h7 --name network -m C:/GitHub/voiceprint_recognition/models/voiceprint_model/voiceprint_model.tflite --compression none --verbosity 1 --workspace C:/Users/TGSPOC~1/AppData/Local/Temp/mxAI_workspace41224039841080012435238546252521005 --output C:/Users/T G Spock/.stm32cubemx/network_output",
+    "cli_parameters": "generate --target stm32h7 --name network -m C:/GitHub/voiceprint_recognition/models/voiceprint_model/voiceprint_model.tflite --compression none --verbosity 1 --workspace C:/Users/TGSPOC~1/AppData/Local/Temp/mxAI_workspace11229443018350016993615887985082795 --output C:/Users/T G Spock/.stm32cubemx/network_output",
     "cli_version": {
         "extra": "20049",
         "major": 2,
@@ -11,7 +11,7 @@
     "cli_version_str": "2.0.0-20049",
     "code_size": 0,
     "compression": [],
-    "date_time": "2025-04-10T20:15:56+0800",
+    "date_time": "2025-04-12T12:00:46+0800",
     "error": 0,
     "error_str": [],
     "exec_cmd": "generate",

@@ -1,6 +1,6 @@
 ST Edge AI Core v2.0.0-20049
-Created date          : 2025-04-10 20:16:02
-Parameters            : generate --target stm32h7 --name network -m C:/GitHub/voiceprint_recognition/models/voiceprint_model/voiceprint_model.tflite --compression none --verbosity 1 --workspace C:/Users/TGSPOC~1/AppData/Local/Temp/mxAI_workspace41224039841080012435238546252521005 --output C:/Users/T G Spock/.stm32cubemx/network_output
+Created date          : 2025-04-14 02:20:16
+Parameters            : generate --target stm32h7 --name network -m C:/GitHub/voiceprint_recognition/models/voiceprint_model/voiceprint_model.tflite --compression none --verbosity 1 --workspace C:/Users/TGSPOC~1/AppData/Local/Temp/mxAI_workspace90504719534002026363925181899855 --output C:/Users/T G Spock/.stm32cubemx/network_output
 
 Exec/report summary (generate)
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -11,7 +11,7 @@ compression        :   none
 options            :   allocate-inputs, allocate-outputs                                                                           
 optimization       :   balanced                                                                                                    
 target/series      :   stm32h7                                                                                                     
-workspace dir      :   C:\Users\TGSPOC~1\AppData\Local\Temp\mxAI_workspace41224039841080012435238546252521005                      
+workspace dir      :   C:\Users\TGSPOC~1\AppData\Local\Temp\mxAI_workspace90504719534002026363925181899855                         
 output dir         :   C:\Users\T G Spock\.stm32cubemx\network_output                                                              
 model_fmt          :   ss/sa per channel                                                                                           
 model_name         :   voiceprint_model                                                                                            

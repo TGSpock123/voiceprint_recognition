@@ -1,0 +1,6 @@
+../Core/Src/audio_capture.c:33:6:AudioCapture_Init	1
+../Core/Src/audio_capture.c:51:6:AudioCapture_Start	2
+../Core/Src/audio_capture.c:75:6:AudioCapture_Stop	1
+../Core/Src/audio_capture.c:90:6:HAL_I2S_RxCpltCallback	7
+../Core/Src/audio_capture.c:124:6:EXTI13_IRQHandler	1
+../Core/Src/audio_capture.c:135:6:HAL_GPIO_EXTI_Callback	4

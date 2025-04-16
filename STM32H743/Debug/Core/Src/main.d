@@ -34,24 +34,13 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/EasyLogger/inc/elog.h \
- C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/EasyLogger/inc/elog_cfg.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
- ../Core/Inc/FreeRTOSConfig.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
- ../Core/Inc/dma.h ../Core/Inc/main.h ../Core/Inc/i2s.h \
- ../Core/Inc/memorymap.h ../Core/Inc/rtc.h ../Core/Inc/gpio.h \
- ../X-CUBE-AI/App/app_x-cube-ai.h ../Middlewares/ST/AI/Inc/ai_platform.h \
- ../X-CUBE-AI/App/network.h ../X-CUBE-AI/App/network_config.h \
- ../X-CUBE-AI/App/network_data.h ../X-CUBE-AI/App/network_data_params.h \
+ ../Core/Inc/dma.h ../Core/Inc/main.h ../Core/Inc/i2c.h ../Core/Inc/i2s.h \
+ ../Core/Inc/memorymap.h ../Core/Inc/rtc.h ../Core/Inc/usart.h \
+ ../Core/Inc/gpio.h ../X-CUBE-AI/App/app_x-cube-ai.h \
+ ../Middlewares/ST/AI/Inc/ai_platform.h ../X-CUBE-AI/App/network.h \
+ ../X-CUBE-AI/App/network_config.h ../X-CUBE-AI/App/network_data.h \
+ ../X-CUBE-AI/App/network_data_params.h ../Core/Inc/audio_capture.h \
+ ../Core/Inc/audio_process.h \
  C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT.h \
  C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT_Conf.h \
  C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT_Conf.h
@@ -91,24 +80,13 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/EasyLogger/inc/elog.h:
-C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/EasyLogger/inc/elog_cfg.h:
-../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
-../Core/Inc/FreeRTOSConfig.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
-../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
-../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
 ../Core/Inc/dma.h:
 ../Core/Inc/main.h:
+../Core/Inc/i2c.h:
 ../Core/Inc/i2s.h:
 ../Core/Inc/memorymap.h:
 ../Core/Inc/rtc.h:
+../Core/Inc/usart.h:
 ../Core/Inc/gpio.h:
 ../X-CUBE-AI/App/app_x-cube-ai.h:
 ../Middlewares/ST/AI/Inc/ai_platform.h:
@@ -116,6 +94,8 @@ C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/EasyLogger/in
 ../X-CUBE-AI/App/network_config.h:
 ../X-CUBE-AI/App/network_data.h:
 ../X-CUBE-AI/App/network_data_params.h:
+../Core/Inc/audio_capture.h:
+../Core/Inc/audio_process.h:
 C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT.h:
 C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT_Conf.h:
 C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/RTT/SEGGER_RTT_Conf.h:

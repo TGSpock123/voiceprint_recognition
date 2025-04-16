@@ -4393,44 +4393,44 @@
   ],
   "environment": {
     "generated_model": {
-      "generated_time": "2025-04-10T20:15:56+0800",
+      "generated_time": "2025-04-12T12:00:46+0800",
       "model_files": [
         {
           "name": "network_data_params.h",
-          "signature": "0xfad5bfaaff065735a49bf04ac39f01d8"
+          "signature": "0x8daa0bfc1b5080c1db009a10bf2ebb9c"
         },
         {
           "name": "network_data_params.c",
-          "signature": "0x1311be13f2be94d8111198baff522fb9"
+          "signature": "0xb2d3779323efe96ae42223014e1b8566"
         },
         {
           "name": "network_data.h",
-          "signature": "0xd4b92c9100e584553ae618e4dc0a6843"
+          "signature": "0x71928d65972c3edbd8ae372b49271c08"
         },
         {
           "name": "network_data.c",
-          "signature": "0x943568baf94cddd5fddad5dbb64db8dd"
+          "signature": "0xe7db53bfd8408d7468a17cfd1470daaa"
         },
         {
           "name": "network_config.h",
-          "signature": "0x6d00ea6fd7e41fac889465c3fc3615e1"
+          "signature": "0x561f82a41df616b757252c1cdd89e11d"
         },
         {
           "name": "network.h",
-          "signature": "0x6e8a18d288f138721ff2b4b088a1b919"
+          "signature": "0x0b8f86f72b5aba9726df9b85ed24eaf3"
         },
         {
           "name": "network.c",
-          "signature": "0x2bd9e350b905eb9dbe2c9f8aab5c43b4"
+          "signature": "0x28bf7111a761908ea9518a0e0faa44ee"
         }
       ],
       "name": "network"
     },
-    "network_signature": "0xb7ed732519b972fe",
+    "network_signature": "0x4ba1ced85a18c0ff",
     "test_name": "",
     "tools": [
       {
-        "arguments": "generate --target stm32h7 --name network -m C:/GitHub/voiceprint_recognition/models/voiceprint_model/voiceprint_model.tflite --compression none --verbosity 1 --workspace C:/Users/TGSPOC~1/AppData/Local/Temp/mxAI_workspace41224039841080012435238546252521005 --output C:/Users/T G Spock/.stm32cubemx/network_output",
+        "arguments": "generate --target stm32h7 --name network -m C:/GitHub/voiceprint_recognition/models/voiceprint_model/voiceprint_model.tflite --compression none --verbosity 1 --workspace C:/Users/TGSPOC~1/AppData/Local/Temp/mxAI_workspace11229443018350016993615887985082795 --output C:/Users/T G Spock/.stm32cubemx/network_output",
         "environment": [
           "STATS_TYPE=X-CUBE-AI"
         ],

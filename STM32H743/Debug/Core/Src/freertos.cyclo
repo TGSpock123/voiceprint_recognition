@@ -1,6 +1,0 @@
-../Core/Src/freertos.c:187:13:start_task_audio_capt	1
-../Core/Src/freertos.c:259:13:start_task_user_inter	1
-../Core/Src/freertos.c:205:13:start_task_feature_extr	1
-../Core/Src/freertos.c:223:13:start_task_ai_inter	1
-../Core/Src/freertos.c:241:13:start_task_result	1
-../Core/Src/freertos.c:123:6:MX_FREERTOS_Init	1

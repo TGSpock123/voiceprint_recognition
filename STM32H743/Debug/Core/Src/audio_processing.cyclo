@@ -1,3 +1,0 @@
-../Core/Src/audio_processing.c:20:6:start_task_audio_capt	3
-../Core/Src/audio_processing.c:53:6:HAL_I2S_RxHalfCpltCallback	2
-../Core/Src/audio_processing.c:60:6:HAL_I2S_RxCpltCallback	2

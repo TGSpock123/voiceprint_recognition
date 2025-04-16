@@ -36,8 +36,6 @@ X-CUBE-AI/App/ai_device_adaptor.o: ../X-CUBE-AI/App/ai_device_adaptor.c \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/EasyLogger/inc/elog.h \
- C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/EasyLogger/inc/elog_cfg.h \
  ../X-CUBE-AI/App/app_x-cube-ai.h ../Middlewares/ST/AI/Inc/ai_platform.h \
  ../X-CUBE-AI/App/network.h ../X-CUBE-AI/App/network_config.h \
  ../X-CUBE-AI/App/network_data.h ../X-CUBE-AI/App/network_data_params.h \
@@ -81,8 +79,6 @@ X-CUBE-AI/App/ai_device_adaptor.o: ../X-CUBE-AI/App/ai_device_adaptor.c \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/EasyLogger/inc/elog.h:
-C:/GitHub/voiceprint_recognition/STM32H743/Middlewares/Third_Party/EasyLogger/inc/elog_cfg.h:
 ../X-CUBE-AI/App/app_x-cube-ai.h:
 ../Middlewares/ST/AI/Inc/ai_platform.h:
 ../X-CUBE-AI/App/network.h:
